@@ -13,3 +13,11 @@
     1) W terminalu:
         1) (git init)  =>
         2) (gid add .) => 
+        3) (git commit -m "initial")
+        4) (git branch -M "main")
+        5) (git remote add origin https://github.com/MakerCodeMaker/excel-course.git) => dla Repozytorium w (oblakie) chcemy dodac "Origin" 'ssylki'
+        6) (git push -u origin "main")
+        7) (git checkout -b "webpack")
+
+5) Tworzenie Webpack
+    1) W terminalu
