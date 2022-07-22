@@ -1,0 +1,15 @@
+0) Obrewiatura
+    1) (SKG)  => System kontroli git
+
+1) Instalacja Git
+2) Stworzenie Repozytorium kodu
+    1) Wejsc na gitHub i kliknac "Create repositorium"
+
+3) Stworzenie i przygotowanie enviroment dla podloczania z git
+    1) Make doc: (.gitignore)  => piszemy tam jakie elementy nie chcemy skladac do (SKG), co musi przepuscic
+    + Piszemy tam biblioteki node i tp 
+
+4) Inicjalizacja i podlaczenie git
+    1) W terminalu:
+        1) (git init)  =>
+        2) (gid add .) => 

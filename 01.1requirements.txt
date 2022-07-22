@@ -1,0 +1,51 @@
+1) Webpack => wpelni realizowac
+
+    +Jest to "Zborshik" projektu, bedzie zbierac wszystkie (JS) dokumenty w jeden wielki
+    + Co ma realizowac
+
+        1) (Babel)              => Zamienia nowy sistaksis kodu w wybrana wersje (JS)
+        2) (imports / exports)  => Webpack automatycznie zalacza w sobie te moduly
+        3) (SCSS)               => Zalaczyc kompilator do Webpacku
+        4) (EsLint)             => Modul ktory pozwala sledzic za czystocsia kodu, jak "ccleaner"
+
+        5) (2 Modes)            => Dwa rozne tryby ktore pomagaja w pracy
+
+            1) (Dev-mode)       => Podtrzymuje takie funkcje jak:
+                1) (dev-server)             => automatycznie przy zmianie kodu(CTRL-S) restartuje/odswieza server
+                                            + Podtrzymuje (Hot-reload) 
+                2) (Source-Maps)            => Pozwala zobaczyc ktory modul gdzie jest podlaczony i tp
+                3) (EsLint)                 => Modul ktory pozwala sledzic za czystocsia kodu, jak "ccleaner"
+                4) (Not minified JS & CSS)  => Kod nie jest (Skompresowany)
+
+            2) (Prod-mode) =>
+                1) (Minified code)  => Kod jest maksymalnie (Skompresowany), szybciej sie laduje strona i zajmuje jak najmniej
+
+
+
+2) Git => realizowac systeme git, dodac do projektu
+
+    1) (Git flow)                   => Specjalny sposob pracy z Systema kontroli wersji, cos podobne do (BEM)
+
+    2) (Systema Kontroli wersji)    => Specjalna funkcja Git, pozwala sledzic za wersja aplikacji
+                                    + Np: V1.052, V2.1 i tp
+                                    + Jesli w nowej wersji cos zle bylo napisane, to bardzo latwo powrocic to wczesniejszej wersji i poprawic kod
+    
+    3) (Dev wersja) & (Prod wersja)
+
+        + Sa owiele bardziej skomplikowane systemy wersji, jednak klasyczny to (2)
+        1) (Dev wersja)     => Wersja nad ktora sie pracuje, nie jest dokladnie sprawdzona przez testerow
+        2) (Prod wersja)    => Wersja maksymalnie stabilna i sprawdzona, to ta wersja ktora uzywa klient
+
+    4) Oznaczenie wersji
+        1) Production
+            1.0.0
+        2) Development
+            1.0.2  => "1": oznacza globalne zmiany, "0": oznacza widoczna dla konsumenta zmiane, "2": nie znaczace zmiany (debug)
+    
+    5) Wietka wersji
+
+        1) Oznacza sie linia (-------)
+        + Np: 1.0.0 => ---
+        + Np: 1.0.5 => --------
+    
+        2) PoolRequest  => Oznacza "zapros" na dolaczenie zmodyfikowanej wietki wersji do oryginalnej

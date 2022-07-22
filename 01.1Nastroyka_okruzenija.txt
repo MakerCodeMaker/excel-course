@@ -1,0 +1,11 @@
+Lekcja 01| Co i jak Bedziemy robic?
+
+Jak Prawidlowo nastroic enviroment dla przyszlej aplikacji
+
+Najpierw robimy spisek tego co potrzebujemy dla aplikacji txt.file(requierements)
+
+Bedzie to (single page aplication) i dla niego bedzie dobrze uzywac (Webpack)
+
+pozwala 'modulowo' budowac aplikacje, kontrolowac (zawisimosci), i budowac dobra infrastrukture
+
+
